@@ -5,24 +5,24 @@
 
   <servers>
     <server>
-      <id>${SNAP_REPO}</id>
-      <username>${NEXUS_USER}</username>
-      <password>${NEXUS_PASS}</password>
+      <id>${vprofile-snapshot}</id>
+      <username>${admin}</username>
+      <password>${admin123}</password>
     </server>
     <server>
-      <id>${RELEASE_REPO}</id>
-      <username>${NEXUS_USER}</username>
-      <password>${NEXUS_PASS}</password>
+      <id>${vprofile-release}</id>
+      <username>${admin}</username>
+      <password>${admin123}</password>
     </server>
         <server>
-        <id>${CENTRAL_REPO}</id>
-      <username>${NEXUS-USER}</username>
-      <password>${NEXUS_PASS}</password>
+        <id>${vpro-maven-central}</id>
+      <username>${NEXUS-admin}</username>
+      <password>${admin123}</password>
     </server>
     <server>
-        <id>${NEXUS-GRP_REPO}</id>
-      <username>${NEXUS_USER}</username>
-      <password>${NEXUS_PASS}</password>
+        <id>${vpro-maven-group}</id>
+      <username>${admin}</username>
+      <password>${admin123}</password>
     </server>
   </servers>
 
